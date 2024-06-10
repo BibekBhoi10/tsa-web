@@ -1,0 +1,5 @@
+.marquee-container {
+    overflow: hidden;
+    width: fit-content; /* Adjust width as needed */
+  }
+  
