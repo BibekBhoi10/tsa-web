@@ -47,20 +47,25 @@ export default function Home() {
         </div>
       </div >
 
-      <div className="overflow-hidden">
+      {/* <div className="overflow-hidden">
         <div className="overflow-hidden">
           <Airdops />
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="overflow-hidden">
       <div className="overflow-hidden">
         < ScrollAnimation/>
        </div>
         </div>  */}
+      <div>
+        <div className="overflow-hidden">
+          {/* <ContactSection /> */}
+          <TestimonialSectionScroll />
+        </div>
 
-      <ContactSection />
-      <TestimonialSectionScroll />
+      </div>
+
 
       <div className="">
         <BackgroundScrollVideo />
